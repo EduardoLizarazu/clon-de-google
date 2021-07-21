@@ -2,6 +2,7 @@
     --height-header: 10vh;
     --height-main: 85vh;
     --height-footer: 5vh;
+    --font-size-title-google: 5rem;
     --font-size: 1.4rem;
     --color-header: #000;
 }
@@ -74,19 +75,28 @@ html {
 }
 .google-title h2 {
     padding-bottom: 2rem;
-    font-size: 4rem;
+    font-size: var(--font-size-title-google);
 }
-.form-search__label_container input {
+.form-search__label_container {
+
+}
+.form-search__label input {
     padding-left: .6rem;
     outline: none;
     background-color: transparent;
     border: 0;
 }
+.search-icon{
+
+}
 .form-search__submit {
     padding-top: 1rem;
 }
 .form-search__submit input {
-
+    padding-left: .6rem;
+    outline: none;
+    background-color: transparent;
+    border: 0;
 }
 
 /* FOOTER */
