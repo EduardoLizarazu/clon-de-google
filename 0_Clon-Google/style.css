@@ -1,5 +1,7 @@
 :root {
     --height-header: 10vh;
+    --height-main: 85vh;
+    --height-footer: 5vh;
     --font-size: 1.4rem;
     --color-header: #000;
 }
@@ -11,8 +13,10 @@
 html {
     font-size: 62.5%;
 }
+/* HEADER-NAV */
 .container-max {
     display: flex;
+    flex-direction: column;
 }
 .header {
     display: flex;
@@ -44,4 +48,51 @@ html {
     text-decoration: none;
     font-size: var(--font-size);
     color: var(--color-header);
+}
+
+/* MAIN */
+.main {
+    width: 100vw;
+    height: var(--height-main);
+    background-color: aqua;
+}
+.form-search {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10rem;
+    width: 100%;
+    height: 100%;
+}
+.form-search__label {
+    padding: .6rem;
+    border-radius: 2rem;
+    background-color: #dcdcdc;
+}
+.google-title h2 {
+    padding-bottom: 2rem;
+    font-size: 4rem;
+}
+.form-search__label_container input {
+    padding-left: .6rem;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+}
+.form-search__submit {
+    padding-top: 1rem;
+}
+.form-search__submit input {
+
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    width: 100vw;
+    height: var(--height-footer);
+    background-color: darkcyan;
 }
