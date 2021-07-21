@@ -69,16 +69,17 @@ html {
     height: 100%;
 }
 .form-search__label {
-    padding: .6rem;
-    border-radius: 2rem;
-    background-color: #dcdcdc;
+    
 }
 .google-title h2 {
     padding-bottom: 2rem;
     font-size: var(--font-size-title-google);
 }
-.form-search__label_container {
-
+.form-search__container {
+    padding: .6rem;
+    border-radius: 2rem;
+    background-color: #dcdcdc;
+    display: flex;
 }
 .form-search__label input {
     padding-left: .6rem;
@@ -90,7 +91,7 @@ html {
 
 }
 .form-search__submit {
-    padding-top: 1rem;
+    
 }
 .form-search__submit input {
     padding-left: .6rem;
