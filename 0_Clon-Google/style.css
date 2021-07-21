@@ -2,9 +2,8 @@
     --height-header: 10vh;
     --height-main: 85vh;
     --height-footer: 5vh;
-    --font-size-title-google: 5rem;
+    --font-size-title-google: 6rem;
     --font-size: 1.4rem;
-    --color-header: #000;
 }
 * {
     box-sizing: border-box;
@@ -18,6 +17,7 @@ html {
 .container-max {
     display: flex;
     flex-direction: column;
+    background-color: #2a2a2a;
 }
 .header {
     display: flex;
@@ -28,7 +28,7 @@ html {
     justify-content: flex-end;
     align-items: center;
     height: var(--height-header);
-    background-color: aquamarine;
+    background-color: transparent;
 }
 .nav-top {
     display: inline-block;
@@ -48,7 +48,10 @@ html {
     text-align: center;
     text-decoration: none;
     font-size: var(--font-size);
-    color: var(--color-header);
+    color: #fff;
+}
+.icon-mail-container img{
+    width: 3rem;
 }
 
 /* MAIN */
@@ -56,6 +59,7 @@ html {
     width: 100vw;
     height: var(--height-main);
     background-color: aqua;
+    background-color: transparent;
 }
 .form-search {
     display: flex;
@@ -74,12 +78,15 @@ html {
 .google-title h2 {
     padding-bottom: 2rem;
     font-size: var(--font-size-title-google);
+    color: #fff;
 }
 .form-search__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: .6rem;
     border-radius: 2rem;
-    background-color: #dcdcdc;
-    display: flex;
+    background-color: #ddd;
 }
 .form-search__label input {
     padding-left: .6rem;
@@ -87,17 +94,23 @@ html {
     background-color: transparent;
     border: 0;
 }
-.search-icon{
-
+.search-icon {
+    
+}
+.search-icon img {
+    width: 1rem;
 }
 .form-search__submit {
-    border-left: .1rem solid #000;
+    /* border-left: .1rem solid #000; */
 }
-.form-search__submit input {
+.form-search__submit button {
     padding-left: .6rem;
     outline: none;
     background-color: transparent;
     border: 0;
+}
+.form-search__submit__img img{
+    width: 1rem;
 }
 
 /* FOOTER */
@@ -105,5 +118,5 @@ html {
     display: flex;
     width: 100vw;
     height: var(--height-footer);
-    background-color: darkcyan;
+    background-color: transparent;
 }
