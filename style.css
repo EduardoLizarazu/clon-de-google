@@ -61,12 +61,12 @@ html {
     color: #fff;
 }
 #menu-icon {
-    width: 2rem;
-    margin: 0 .5rem 0 1.5rem;
+    width: 2.5rem;
+    margin: 1rem .5rem 0 1.5rem;
 }
 #profile-icon {
-    width: 2.5rem;
-    margin: 0 .5rem 0 .5rem;
+    width: 4rem;
+    margin: 1rem .5rem 0 .5rem;
 }
 
 /* MAIN */
@@ -85,7 +85,7 @@ html {
     align-items: center;
     padding-top: 10rem;
     width: 100%;
-    height: 100%;
+    height: 50%;
 }
 .form-search__label {
 
@@ -99,6 +99,8 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 80vw;
+    max-width: 35rem;
     padding: .6rem;
     border-radius: 2rem;
     background-color: #ddd;
@@ -128,6 +130,31 @@ html {
     width: 1rem;
 }
 
+/* QUICK-ACCESS */
+.quick-access {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+.quick-access__li {
+    display: inline-block;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.quick-access__li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: var(--font-size);
+    color: #fff;
+}
+#facebook-icon, #instagram-icon, #youtube-icon {
+    width: 3rem;
+    margin: 2rem 2rem 1rem;
+}
 /* FOOTER */
 .footer {
     display: flex;
