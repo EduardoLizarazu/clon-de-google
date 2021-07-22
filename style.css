@@ -86,9 +86,6 @@ html {
     padding-top: 10rem;
     width: 100%;
 }
-.form-search__label {
-
-}
 .google-title h2 {
     padding-bottom: 2rem;
     font-size: var(--font-size-title-google);
@@ -110,14 +107,8 @@ html {
     background-color: transparent;
     border: 0;
 }
-.search-icon {
-    
-}
 .search-icon img {
     width: 1rem;
-}
-.form-search__submit {
-    /* border-left: .1rem solid #000; */
 }
 .form-search__submit button {
     padding-left: .6rem;
